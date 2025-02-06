@@ -115,7 +115,7 @@ p {
     font-family: "scandia-web", sans-serif !important;
 }
 
-.button input {
+.main-content form .button input {
     background-color: #674a34;
     border: 2px solid #674a34;
     color: #ede7dd;
@@ -128,9 +128,10 @@ p {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
-.button input:hover {
+.main-content form .button input:hover {
     background-color: transparent;
     transition: all .4s ease;
     color: #674a34;
