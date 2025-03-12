@@ -120,6 +120,7 @@ p {
 .main-content form textarea::placeholder {
     color: var(--primary);
     font-family: "scandia-web", sans-serif !important;
+    opacity: .5;
 }
 
 .main-content form button {
